@@ -3,6 +3,8 @@ const heading = document.getElementById('heading');
 const button = document.getElementById('darkmode');
 const pyazz = document.getElementById('pyaz');
 const bodyy = document.getElementById('bodyy');
+const navitem = document.getElementsByClassName('navitems');
+
 
 function darkM() {
     paragraph.classList.toggle('dark');
@@ -12,3 +14,5 @@ function darkM() {
     bodyy.classList.toggle('style2');
 }
 
+function nana() {
+    nav
