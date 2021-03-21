@@ -12,11 +12,9 @@ function darkM() {
     button.classList.toggle('dark');    
     pyazz.classList.toggle('border1');
     bodyy.classList.toggle('style2');
-    ham[0].style.background = 'white';
-    ham[1].style.background = 'white';
-    ham[2].style.background = 'white';
-    
-
+    ham[0].classList.toggle('nerf');
+    ham[1].classList.toggle('nerf');
+    ham[2].classList.toggle('nerf');
 }
 
 function nana() {
