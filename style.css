@@ -6,16 +6,16 @@
 
 body {
   font-family: sans-serif;
-  
+  position: relative;
   background-color: white;
   display: flex;
-flex-direction: column;
+  flex-direction: column;
 }
-.style2{
+.style2 {
   background-color: rgb(32, 32, 32);
 }
 
-.navitems{
+.navitems {
   display: flex;
   justify-content: space-around;
   align-content: center;
@@ -25,42 +25,59 @@ flex-direction: column;
   width: 80%;
   border-top-right-radius: 50px;
   border-bottom-right-radius: 50px;
-  
-
 }
-.navcontainer{
+.navcontainer {
   margin: 20px 0px;
-  
-
+  display: flex;
 }
-.al{
+a {
+  text-transform: uppercase;
+}
+.al {
   height: 1000px;
 }
-img{
+.burb {
+  width: 40px;
+  height: 7px;
+  background-color: black;
+  margin: 2px;
+  display: none;
+}
+#burcon {
+  margin-left: 60px;
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  right: 20px;
+  top: 20px;
+  cursor: pointer;
+  z-index: 2;
+}
+img {
   width: 500px;
   height: 500px;
   align-content: center;
   margin-left: 600px;
 }
-a{
+a {
   text-decoration: none;
-color: white;}
+  color: white;
+}
 
 section {
   margin: 20px;
   padding: 10px;
   border: 3px solid black;
-  
 }
-.col{
+.col {
   columns: 2 400px;
   padding: 5px;
   column-rule: 2px solid rgb(134, 134, 134);
 }
 
-p{
-   padding: 0 20px 20px 20px;
-   font-size: 30px;
+p {
+  padding: 0 20px 20px 20px;
+  font-size: 30px;
 }
 h1 {
   font-size: 50px;
@@ -80,6 +97,55 @@ h1 {
 .dark {
   color: white;
 }
-.border1{
+.border1 {
   border: 3px solid white;
+}
+
+@media (max-width: 800px) {
+  .burb {
+    display: block;
+  }
+  #burcon {
+    transition: all 1s ease-in-out;
+  }
+  .navcontainer {
+    padding: 0px;
+    margin: 0px;
+    position: relative;
+    transition: all 1s ease-out;
+  }
+
+  .navitems {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    align-content: center;
+    font-size: 25px;
+    background-color: rgb(72, 155, 72);
+    padding: 0px;
+    width: 100%;
+    height: 100vh;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+    display: none;
+  }
+
+  a {
+    margin-left: 40%;
+  }
+  .active {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    font-size: 25px;
+    background-color: rgb(72, 155, 72);
+    padding: 0px;
+    width: 100%;
+    height: 100vh;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+  }
+  #pyaz {
+    margin-top: 100px;
+  }
 }
