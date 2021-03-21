@@ -4,7 +4,7 @@ const button = document.getElementById('darkmode');
 const pyazz = document.getElementById('pyaz');
 const bodyy = document.getElementById('bodyy');
 const navitem = document.getElementsByClassName('navitems');
-
+const ham = document.getElementsByClassName('burb')
 
 function darkM() {
     paragraph.classList.toggle('dark');
@@ -12,7 +12,14 @@ function darkM() {
     button.classList.toggle('dark');    
     pyazz.classList.toggle('border1');
     bodyy.classList.toggle('style2');
+    ham[0].style.background = 'white';
+    ham[1].style.background = 'white';
+    ham[2].style.background = 'white';
+    
+
 }
 
 function nana() {
-    nav
+    navitem[0].classList.toggle('active');
+}
+
