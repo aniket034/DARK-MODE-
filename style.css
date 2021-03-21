@@ -43,6 +43,9 @@ a {
   margin: 2px;
   display: none;
 }
+.nerf {
+  background-color: white;
+}
 #burcon {
   margin-left: 60px;
   display: flex;
