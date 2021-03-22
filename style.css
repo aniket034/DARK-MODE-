@@ -3,7 +3,7 @@
   padding: 0;
   box-sizing: border-box;
 }
-.parac{
+.parac::before{
   color: white;
 }
 body {
