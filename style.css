@@ -117,7 +117,7 @@ h1 {
     position: relative;
     transition: all 1s ease-out;
   }
-  section p{
+  .col p{
     font-size: 10px;
   }
 
