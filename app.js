@@ -16,7 +16,7 @@ function darkM() {
     ham[0].classList.toggle('nerf');
     ham[1].classList.toggle('nerf');
     ham[2].classList.toggle('nerf');
-    para.classList.toggle('parac');
+    para[0].classList.toggle('parac');
 }
 
 function nana() {
