@@ -117,6 +117,9 @@ h1 {
     position: relative;
     transition: all 1s ease-out;
   }
+  section p{
+    font-size: 10px;
+  }
 
   .navitems {
     display: flex;
