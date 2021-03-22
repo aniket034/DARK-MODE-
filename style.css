@@ -120,6 +120,9 @@ h1 {
   .col p{
     font-size: 10px;
   }
+  section h1{
+    font-size: 20px;
+  }
 
   .navitems {
     display: flex;
