@@ -168,6 +168,7 @@ h1 {
 }
 .para2 {
   font-size: 30px;
+  color: green;
   font-family: poppins;
   text-transform: uppercase;
 }
